@@ -1,0 +1,30 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.skills__group {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.skills__group-title {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+
+.skills__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills__badges img {
+  height: 28px;
+  width: auto;
+  border-radius: 4px;
+}

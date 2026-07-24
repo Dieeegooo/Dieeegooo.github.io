@@ -1,0 +1,47 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: color-mix(in srgb, var(--bg-alt) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 0.9rem;
+}
+
+.header__brand {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.header__nav {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+.header__nav a:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 640px) {
+  .header__nav {
+    gap: 0.9rem;
+    font-size: 0.9rem;
+  }
+}
