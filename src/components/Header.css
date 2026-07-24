@@ -40,8 +40,17 @@
 }
 
 @media (max-width: 640px) {
+  .header__inner {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    padding-block: 0.75rem;
+  }
+
   .header__nav {
-    gap: 0.9rem;
+    order: 3;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    gap: 0.6rem 0.9rem;
     font-size: 0.9rem;
   }
 }
