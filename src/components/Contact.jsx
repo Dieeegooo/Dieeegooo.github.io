@@ -9,7 +9,7 @@ export default function Contact() {
     <section id="contatti" className="section">
       <div className="container contact">
         <h2 className="section-title">
-          Contatt<span>ami</span>
+          <span>Contattami</span>
         </h2>
         <p className="contact__text">
           Sono alla ricerca di un&apos;opportunità di stage a partire da novembre 2026. Se hai un
